@@ -57,8 +57,8 @@
 .owl-carousel .owl-nav .owl-prev,
 .owl-carousel .owl-nav .owl-next,
 .owl-carousel .owl-dot {
-	display: inline-block;
-	margin: 0px 15px;
+    display: inline-block;
+    margin: 0px 15px;
     cursor: pointer;
     cursor: hand;
     -webkit-user-select: none;
@@ -104,6 +104,7 @@
 .owl-carousel.owl-rtl .owl-item {
     float: right;
 }
+
 .no-js .owl-carousel {
     display: block;
 }
@@ -150,7 +151,6 @@
     transition: height 500ms ease-in-out;
 }
 
-
 .owl-carousel .owl-item .owl-lazy {
     opacity: 0;
     transition: opacity 400ms ease;
@@ -162,26 +162,28 @@
 }
 
 .owl-nav {
-  width: 100%;
-  text-align: center;
-}
-.owl-next i,
-.owl-prev i {
-  background-color: #8dbd55;
-  width: 60px;
-  height: 60px;
-  font-size: 28px;
-  line-height: 60px;
-  text-align: center;
-  right:auto;
-  color: #ffffff;
+    width: 100%;
+    text-align: center;
 }
 
-.owl-next i:hover, .owl-prev i:hover{
-	background: #664a3f;
+.owl-next i,
+.owl-prev i {
+    background-color: #ddaa44;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+    right: auto;
+    color: #ffffff;
+}
+
+.owl-next i:hover,
+.owl-prev i:hover {
+    background: #664a3f;
 }
 
 .owl-next i {
-  right:-10%;
-  left: auto;
+    right: -10%;
+    left: auto;
 }
